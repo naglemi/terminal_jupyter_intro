@@ -56,7 +56,7 @@ $ pwd
 ```
 
 ### 4. `ls -lhrt`
-Lists files and directories with detailed information in human-readable format, sorted by modification time.
+Lists files and directories with detailed information with file sizes in human-readable format, sorted by modification time. I find this command very useful for viewing directory contents in an organized way, with all details I might need.
 
 **Usage**: `ls -lhrt`
 
@@ -72,6 +72,7 @@ drwxr-xr-x 2 user user 4.0K Apr  1 12:01 Pictures
 Jupyter Lab is a popular interactive development environment.
 
 **Installation Steps**:
+Here, we are assuming you are running Ubuntu or another Debian-based Linux distro. Other distros use different package management systems (e.g., yum for Red Hat-based systems, pacman for Arch Linux). Each system has its own package manager due to differences in packaging methods, repository formats, and management philosophies.
 1. Update package lists:
    ```bash
    sudo apt-get update
@@ -87,3 +88,5 @@ Jupyter Lab is a popular interactive development environment.
 ```bash
 jupyter-lab
 ```
+
+Depending on your situation, you may either have a browser window automatically pop up with Jupyter Lab, or you will see a link in the Terminal, which you can then copy into the address bar of your browser.
