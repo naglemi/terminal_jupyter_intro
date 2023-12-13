@@ -91,6 +91,8 @@ Here, we are assuming you are running Ubuntu or another Debian-based Linux distr
    sudo apt-get install jupyter-lab
    ```
 
+Note: You might be wondering what `sudo` means. With `sudo`, you are calling on administrator priveledges, which are often needed for important or sensitive tasks such as installing files.
+
 ## Running Jupyter Lab
 
 **Starting Jupyter Lab**:
