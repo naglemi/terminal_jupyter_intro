@@ -86,9 +86,17 @@ Here, we are assuming you are running Ubuntu or another Debian-based Linux distr
    ```bash
    sudo apt-get update
    ```
-2. Install Jupyter Lab:
+2. Begin by updating your package list to ensure you have the latest repository information.
    ```bash
-   sudo apt-get install jupyterlab
+   sudo apt update
+   ```
+3. Install `pip`, the Python package manager.
+   ```bash
+   sudo apt install python3-pip
+   ```
+4. Now using `pip`, install Jupyter Lab.
+   ```bash
+   pip3 install jupyterlab
    ```
 
 Note: You might be wondering what `sudo` means. With `sudo`, you are calling on administrator priveledges, which are often needed for important or sensitive tasks such as installing files.
