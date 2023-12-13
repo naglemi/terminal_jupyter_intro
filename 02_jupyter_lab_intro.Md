@@ -12,7 +12,7 @@ Welcome to Jupyter Lab, the gold standard for organizing code in data science. Y
 - **Using Toolbar**: Click the '+' button on the toolbar to create a new cell.
 - **Keyboard Shortcuts**: Press `A` to insert a cell above or `B` to insert below the current cell.
 
-## 3. Code Blocks vs. Text Blocks
+## 3. Code Blocks vs. Text Blocks: What type of cell do we want?
 - **Code Blocks**: For writing and executing code. Specify by selecting 'Code' in the dropdown menu in the toolbar.
 - **Text Blocks**: For writing text, use Markdown. Choose 'Markdown' from the same dropdown.
 - **Keyboard Shortcuts**: Toggle between them using `Y` for code and `M` for Markdown. Alternatively, use the drop-down menu in the toolbar to indicate which you want.
