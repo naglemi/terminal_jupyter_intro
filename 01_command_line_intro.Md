@@ -94,9 +94,9 @@ Here, we are assuming you are running Ubuntu or another Debian-based Linux distr
    ```bash
    sudo apt install python3-pip
    ```
-4. Now using `pip`, install Jupyter Lab.
+4. Now using `pip`, install Jupyter Lab... and let's also install the `bash` kernel for Jupyter Lab, which will let us run the `bash` command line kernel inside of Jupyter. `bash` is what we've been using so far in the command line. You can think of it as the typical "programming language" of the command line.
    ```bash
-   pip3 install jupyterlab
+   pip3 install jupyterlab bash_kernel
    ```
 
 Note: You might be wondering what `sudo` means. With `sudo`, you are calling on administrator priveledges, which are often needed for important or sensitive tasks such as installing files.
