@@ -8,6 +8,8 @@ The command line, also known as the terminal or shell, is a text-based interface
 
 ## Basic Commands
 
+To enter a command, type a command as shown below and then press enter.
+
 ### 1. `ls` (List)
 Lists the files and directories in the current directory.
 
