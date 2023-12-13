@@ -24,6 +24,8 @@ Desktop  Documents  Downloads  Music  Pictures  Videos
 ### 2. `cd` (Change Directory)
 Changes the current working directory.
 
+Note: The tilde symbol (~) is shorthand for your home directory (typically something like /home/users/michael). Your home directory is typically where your Desktop, Documents, Pictures, etc. are found.
+
 **Usage**: `cd [directory]`
 
 **Absolute vs. Relative Paths**:
