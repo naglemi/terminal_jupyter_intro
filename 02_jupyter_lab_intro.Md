@@ -24,7 +24,7 @@ Welcome to Jupyter Lab, the gold standard for organizing code in data science. Y
 
 ## 5. Markdown in Jupyter Lab
 - **Headers**: Start a line with `#` for a header. More `#`s for smaller headers.
-- **Formatting**: Use `**bold**` for bold, `*italic*` for italic.
+- **Formatting**: Put one `*` on either side of your text to italicize it (e.g., `*italic*`). Put two to bold (e.g.,`**bold**`). Three for both bold and italics.
 - **Running Markdown Cell**: Your formatting appears after running the cell with `Shift + Enter`.
 
 Jupyter can have a bit of the learning curve, but it's more than worth being able to keep code well-organized... and can thus help to reduce many other learning curves in the future!
