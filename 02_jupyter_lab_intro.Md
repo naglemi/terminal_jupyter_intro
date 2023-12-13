@@ -7,6 +7,7 @@ Welcome to Jupyter Lab, the gold standard for organizing code in data science. Y
 - Click on 'Launcher' or 'File' > 'New Notebook'.
 - Select 'Bash' from the kernel options.
 - Note, we also have an option for Python, and an option for R if we install the R kernel, but we don't need to worry about this today. The general steps outlined below are the same for all of these kernels, while only the code is different.
+- What exactly is a kernel anyway? A kernel is a program that interprets and executes code written in a specific programming language, acting as a mediator between the language and the computer's processing capabilities.
 
 ## 2. Creating Cells
 - **Using Toolbar**: Click the '+' button on the toolbar to create a new cell.
