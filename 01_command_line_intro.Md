@@ -2,6 +2,13 @@
 
 This tutorial introduces the essentials of the command line, focusing on basic commands and their usage, complete with examples and expected outputs.
 
+## First look
+When you enter the command line, you will be greeted with something that looks like this:
+```bash
+gmobot@gmobot-Precision-5820-Tower:/home/current_directory$
+```
+What does this mean? Here, we see our username (`gmobot`) before the `@`, followed by the name of our computer (`gmobot-Precision-5820-Tower`). Next, after the `:`, we see the path to the directory (folder) we're in right now (`/home/current_directory`) followed at last by the $. You can think of the $ as meaning, "The computer is waiting for you to type something."
+
 ## What is the Command Line?
 
 The command line, also known as the terminal or shell, is a text-based interface for interacting with your computer, where you can enter and execute commands.
@@ -98,6 +105,15 @@ Here, we are assuming you are running Ubuntu or another Debian-based Linux distr
    ```bash
    pip3 install jupyterlab bash_kernel
    ```
+5. Add jupyterlab to our `PATH`, which tells the computer where to find this installed software.
+   ```bash
+   echo "export PATH=\$PATH:$(find ~/.local -name jupyter-lab | sed 's|/jupyter-lab||')" >> ~/.bashrc
+   ```
+6. One more step...
+   ```bash
+   source ~/.bashrc
+   ```
+The command source ~/.bashrc reloads your .bashrc file in the current terminal session. This means it applies any changes you've made to this file without needing to close and reopen the terminal. It's similar to restarting the terminal because both actions make the terminal aware of the latest environment settings, like updated PATH variables or new aliases, but source ~/.bashrc does this instantly in the existing session.
 
 Note: You might be wondering what `sudo` means. With `sudo`, you are calling on administrator priveledges, which are often needed for important or sensitive tasks such as installing files.
 
