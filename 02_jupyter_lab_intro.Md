@@ -27,4 +27,10 @@ Welcome to Jupyter Lab, the gold standard for organizing code in data science. Y
 - **Formatting**: Put one `*` on either side of your text to italicize it (e.g., `*italic*`). Put two to bold (e.g.,`**bold**`). Three for both bold and italics.
 - **Running Markdown Cell**: Your formatting appears after running the cell with `Shift + Enter`.
 
+## Pro-Tip: Table of Contents Sidebar
+- Jupyter Lab has a handy Table of Contents sidebar, which automatically organizes your notebook based on header sizes.
+- Use different levels of headers (`#`, `##`, `###`, etc.) in Markdown to structure your notebook, making it easier to navigate.
+- You can click around in the Table of Contents to quickly navigate to any section with a header.
+
+
 Jupyter can have a bit of the learning curve, but it's more than worth being able to keep code well-organized... and can thus help to reduce many other learning curves in the future!
