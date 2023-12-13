@@ -59,6 +59,8 @@ $ pwd
 /home/user
 ```
 
+Note: If a path starts with `/` then that is the root directory... the biggest directory (folder) that contains ALL other directories.
+
 ### 4. `ls -lhrt`
 Lists files and directories with detailed information with file sizes in human-readable format, sorted by modification time. I find this command very useful for viewing directory contents in an organized way, with all details I might need.
 
