@@ -89,6 +89,14 @@ Jupyter Lab is a popular interactive development environment.
 
 **Installation Steps**:
 Here, we are assuming you are running Ubuntu or another Debian-based Linux distro. Other distros use different package management systems (e.g., yum for Red Hat-based systems, pacman for Arch Linux). Each system has its own package manager due to differences in packaging methods, repository formats, and management philosophies.
+
+Pro-tip: You can copy and paste these commands into the terminal. However, if you're on a Linux-based system, copy and paste can work a little differently from what you're used to, and depends on whether you're copying/pasting to/from the command line, or somewhere else.
+
+Copy outside command line: Ctrl+C
+Paste outside command line: Ctrl+V
+Copy in command line: Ctrl+Shift+C
+Paste in command line: Ctrl+Shift+V
+
 1. Update package lists:
    ```bash
    sudo apt update
