@@ -8,14 +8,14 @@ Welcome to Jupyter Lab, the gold standard for organizing code in data science. Y
 - Select 'Bash' from the kernel options.
 - Note, we also have an option for Python, and an option for R if we install the R kernel, but we don't need to worry about this today. The general steps outlined below are the same for all of these kernels, while only the code is different.
 
-## 2. Code Blocks vs. Text Blocks
+## 2. Creating Cells
+- **Using Toolbar**: Click the '+' button on the toolbar to create a new cell.
+- **Keyboard Shortcuts**: Press `A` to insert a cell above or `B` to insert below the current cell.
+
+## 3. Code Blocks vs. Text Blocks
 - **Code Blocks**: For writing and executing code. Specify by selecting 'Code' in the dropdown menu in the toolbar.
 - **Text Blocks**: For writing text, use Markdown. Choose 'Markdown' from the same dropdown.
 - **Keyboard Shortcuts**: Toggle between them using `Y` for code and `M` for Markdown. Alternatively, use the drop-down menu in the toolbar to indicate which you want.
-
-## 3. Creating Cells
-- **Using Toolbar**: Click the '+' button on the toolbar to create a new cell.
-- **Keyboard Shortcuts**: Press `A` to insert a cell above or `B` to insert below the current cell.
 
 ## 4. Running Cells
 - **Individual Cell**: Click the 'Play' button in the toolbar or use `Shift + Enter`.
